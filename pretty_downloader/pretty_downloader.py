@@ -44,3 +44,4 @@ def download(url, file_path='', file_name=None, name='Download progress', block_
             bar.update(len(data))
             file.write(data)
     bar.close()
+    return True
