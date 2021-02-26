@@ -13,7 +13,7 @@ General Discord: https://discord.gg/dFD5HHa
 Developer Discord: https://discord.gg/rxNNHYN9EQ
 
 ## 📥INSTALLING
-** <a href="https://pypi.org/project/Pretty-Downloader">Latest PyPI stable release</a> **
+<a href="https://pypi.org/project/Pretty-Downloader">Latest PyPI stable release</a>
 ```bash
 pip install Pretty-Downloader
 ```
