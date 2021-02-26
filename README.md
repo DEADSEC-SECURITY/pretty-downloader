@@ -28,7 +28,7 @@ pretty_downloader.download(<YOUR URL>)
 - url : str, required
   - This should be the url of the file you wish to download
 - file_path : str, optional
-  - The path to save the file (Default: '')
+  - The path to save the file (Default: "")
 - file_name : str, optional 
   - The file name you want the file to be saved with. Should include file extension (Default: None)
 - name : str, optional
