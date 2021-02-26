@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.0.5] - 2021-26-02
+
+## Changed
+
+- Fixed bug where you couldn't import module
+
 ## [v0.0.4] - 2021-26-02
 
 ## Changed
