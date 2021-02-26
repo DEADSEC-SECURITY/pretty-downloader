@@ -1,4 +1,4 @@
-# Pretty Downloader ![Version](https://img.shields.io/badge/Version-v0.0.5-orange?style=flat-square&url=https://github.com/DEADSEC-SECURITY/pretty-downloader/blob/main/CHANGELOG.md) ![Python_Version](https://img.shields.io/badge/Python-3.7%2B-blue?style=flat-square) ![License](https://img.shields.io/badge/License-MIT-red?style=flat-square) ![Donate](https://img.shields.io/badge/Donate-Crypto-yellow?style=flat-square)
+# Pretty Downloader ![Version](https://img.shields.io/badge/Version-v0.0.6-orange?style=flat-square&url=https://github.com/DEADSEC-SECURITY/pretty-downloader/blob/main/CHANGELOG.md) ![Python_Version](https://img.shields.io/badge/Python-3.7%2B-blue?style=flat-square) ![License](https://img.shields.io/badge/License-MIT-red?style=flat-square) ![Donate](https://img.shields.io/badge/Donate-Crypto-yellow?style=flat-square)
 
 ## 📝 CONTRIBUTIONS
 
@@ -20,8 +20,13 @@ pip install Pretty-Downloader
 
 ## ⚙ HOW TO USE
 ```python
-from pretty_downloader import pretty_downloader
+import pretty_downloader
 pretty_downloader.download(<YOUR URL>)
+```
+OR
+```python
+from pretty_downloader import download
+download(<YOUR URL>)
 ```
 
 ## 🤝 PARAMETERS

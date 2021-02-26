@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.0.6] - 2021-26-02
+
+## Changed
+
+- Simplified import
+
 ## [v0.0.5] - 2021-26-02
 
 ## Changed

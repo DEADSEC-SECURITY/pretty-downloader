@@ -1,4 +1,4 @@
-from pretty_downloader import pretty_downloader
+import pretty_downloader
 
 
 def test_download():
