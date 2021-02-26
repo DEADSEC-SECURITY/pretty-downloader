@@ -1,12 +1,12 @@
 from setuptools import find_packages, setup
 import pathlib
 
-README = (pathlib.Path(__file__).parent / "README.md").read_text()
+README = (pathlib.Path(__file__).parent / "README.md").read_text(encoding='utf8')
 
 setup(
     name='Pretty Downloader',
     packages=find_packages(),
-    version='0.0.1',
+    version='0.0.2',
     description='This is a simple python pretty downloader for your projects.',
     long_description=README,
     long_description_content_type='text/markdown',
