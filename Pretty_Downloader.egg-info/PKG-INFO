@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Pretty-Downloader
+Version: 0.0.1
+Summary: This is a simple python pretty downloader for your projects.
+Home-page: https://github.com/DEADSEC-SECURITY/pretty-downloader
+Author: DeadSec-Security
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: <=3.7
+Description-Content-Type: text/markdown
