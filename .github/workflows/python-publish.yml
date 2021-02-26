@@ -20,8 +20,8 @@ jobs:
         python-version: '3.9'
     - name: Install dependencies
       run: |
-        python3 -m pip3 install --upgrade pip3
-        pip3 install setuptools wheel twine
+        python3 -m pip install --upgrade pip
+        pip install setuptools wheel twine
     - name: Versions
       run: |
         twine --version
