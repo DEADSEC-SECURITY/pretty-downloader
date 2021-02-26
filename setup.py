@@ -6,7 +6,7 @@ README = (pathlib.Path(__file__).parent / "README.md").read_text(encoding='utf8'
 setup(
     name='Pretty Downloader',
     packages=find_packages(),
-    version='0.0.3',
+    version='0.0.4',
     description='This is a simple python pretty downloader for your projects.',
     long_description=README,
     long_description_content_type='text/markdown',
