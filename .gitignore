@@ -129,3 +129,6 @@ dmypy.json
 .pyre/
 !/compile-upload.py
 !/token.txt
+!/dist/
+!/build/
+!/Pretty_Downloader.egg-info/
