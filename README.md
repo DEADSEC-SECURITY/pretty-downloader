@@ -15,7 +15,7 @@ Developer Discord: https://discord.gg/rxNNHYN9EQ
 ## 📥 INSTALLING
 <a href="https://pypi.org/project/Pretty-Downloader">Latest PyPI stable release</a>
 ```bash
-pip install Pretty-Downloader
+pip install pretty-downloader
 ```
 
 ## ⚙ HOW TO USE
