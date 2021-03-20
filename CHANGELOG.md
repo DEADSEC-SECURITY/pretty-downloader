@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.0.7] - 2021-26-02
+
+## Function now returns the file path
+
+- Simplified import
+
 ## [v0.0.6] - 2021-26-02
 
 ## Changed
