@@ -1,5 +1,6 @@
 from tqdm import tqdm
 import requests
+import os
 
 # Notice: This script is possible because of the library TQDM
 # https://github.com/tqdm/tqdm
@@ -36,10 +37,7 @@ def download(url, file_path='', file_name=None, name='Download progress',
     # will use the current path from running the
     # script
     if file_path != '':
-        if file_path[-1] == '/':
-            file_path = file_path + file_name
-        else:
-            file_path = file_path + '/' + file_name
+        file_path = os.path.join(file_path, file_name)
     else:
         file_path = file_name
 
