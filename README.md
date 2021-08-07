@@ -43,6 +43,8 @@ download(<YOUR URL>)
 - proxies : dict, optional
   - Dictionary of proxies to be used (Default: None)
   - Example: {'http': 'http://135.125.218.47:8080'}
+  
+- RETURNS: Path of file downloaded
 
 
 ## 🖼️ SCRIPT SCREENSHOTS & VIDEOS
