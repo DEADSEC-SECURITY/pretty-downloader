@@ -1,6 +1,13 @@
-from tqdm import tqdm
-import requests
+'''
+    This file contains all functions that make
+    this library work :)
+
+    By: Antonio Goncalves -> AKA: DEADSEC-SECURITY
+'''
+
 import os
+import requests
+from tqdm import tqdm
 
 def download(url: str, file_path: str = '',
              file_name=None, name: str = 'Download progress',
@@ -31,7 +38,7 @@ def download(url: str, file_path: str = '',
 
     total_size_in_bytes = int(resp.headers.get('content-length', 0))
 
-    bar = tqdm(total=total_size_in_bytes, unit='iB', unit_scale=True, desc=name)
+    tqdm_bar = tqdm(total=total_size_in_bytes, unit='iB', unit_scale=True, desc=name)
 
     '''
         Check if a file name is provided if not it will get
@@ -55,8 +62,8 @@ def download(url: str, file_path: str = '',
     # Start processing the download
     with open(file_path, 'wb') as file:
         for data in resp.iter_content(block_size):
-            bar.update(len(data))
+            tqdm_bar.update(len(data))
             file.write(data)
-    bar.close()
+    tqdm_bar.close()
 
     return file_path
