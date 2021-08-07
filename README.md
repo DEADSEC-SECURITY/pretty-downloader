@@ -40,6 +40,9 @@ download(<YOUR URL>)
   - The name you want to appear in the progress bar (default: 'Download progress')
 - block_size : int, optional
   - The size of the download block (Default: 1024)
+- proxies : dict, optional
+  - Dictionary of proxies to be used (Default: None)
+  - Example: {'http': 'http://135.125.218.47:8080'}
 
 
 ## 🖼️ SCRIPT SCREENSHOTS & VIDEOS

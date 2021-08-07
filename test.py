@@ -22,6 +22,9 @@ def full_download():
                    file_name='NAME-TEST.zip', name='Download name test'
                    , block_size=2048))
 
+def proxy_download():
+    print(download(url, proxies={'http': 'http://135.125.218.47:8080'}))
+
 if __name__ == '__main__':
     basic_download()
     path_download()
@@ -29,3 +32,4 @@ if __name__ == '__main__':
     progress_download()
     block_download()
     full_download()
+    proxy_download()

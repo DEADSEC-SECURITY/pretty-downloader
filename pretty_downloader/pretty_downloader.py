@@ -14,8 +14,13 @@ import requests
 # name: Name to display in the download bar
 # block_size: The size of each block
 
-def download(url, file_path='', file_name=None, name='Download progress', block_size=1024):
-    resp = requests.get(url, stream=True)
+def download(url, file_path='', file_name=None, name='Download progress',
+             block_size=1024, proxies=None):
+
+    if proxies:
+        resp = requests.get(url, stream=True, proxies=proxies)
+    else:
+        resp = requests.get(url, stream=True)
     total_size_in_bytes = int(resp.headers.get('content-length', 0))
 
     bar = tqdm(total=total_size_in_bytes, unit='iB', unit_scale=True, desc=name)
