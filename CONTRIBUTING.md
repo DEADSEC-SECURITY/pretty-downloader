@@ -2,12 +2,10 @@ If you enjoy my work consider making a donation to help me be able to work full 
 
 Github sponsor.
 
-BitCoin Wallet: 1NQfnb7kBT8DevaU8i6krnVsNvKv9q3zTP
+BitCoin Wallet: 15c4gCvesKqSSBewo355yePrQorjKnT9XB
 
-Dash Wallet: Xch4pGxGLgCiZaVVDpUqrq4LbsHEdzXydP
+Ethereum Wallet: 0x212Ee1328B9882428122308277a60838511f03C9
 
-Ethereum Wallet: 0xc4C57aE36Da0f9222fC8A1c6F2e23Da14c41d514
+BAT Wallet: 0xB2F46c589Eb686C826a86B508A7e33d95BBEa2e3
 
-Bitcoin Cash Wallet: 16Lu6na5ES7qGLcnJJWAAnXGvNxWX94cGS
-
-Brave donations: https://brave.com/dea060
+Buy me a cofe: https://www.buymeacoffee.com/zeus500k
