@@ -1,5 +1,12 @@
 # Changelog
 
+## [v0.2.0] - 2022-10-01
+
+- Added default headers to prevent blocking
+- Added possibility to pass headers
+- Added args/kwargs support to be passed directly to the requests library
+- Added option to disable the progress bar
+
 ## [v0.0.7] - 2021-30-03
 
 ## Function now returns the file path
