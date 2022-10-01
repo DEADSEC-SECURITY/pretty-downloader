@@ -36,6 +36,8 @@ download(<YOUR URL>)
   - The path to save the file (Default: "")
 - file_name : str, optional 
   - The file name you want the file to be saved with. Should include file extension (Default: None)
+- show_progress : bool, optional
+  - Option to disable/enable the default progress bar (Default: True)
 - name : str, optional
   - The name you want to appear in the progress bar (default: 'Download progress')
 - block_size : int, optional
@@ -43,7 +45,9 @@ download(<YOUR URL>)
 - proxies : dict, optional
   - Dictionary of proxies to be used (Default: None)
   - Example: {'http': 'http://135.125.218.47:8080'}
-  
+- headers : dict, optional
+  - Dictionary of headers (Default: None)
+  - Example: {'user-agent': 'Mozilla/5.0'}
 - RETURNS: Path of file downloaded
 
 
