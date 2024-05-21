@@ -25,7 +25,7 @@ setup(
     license='MIT',
     install_requires=[
         'tqdm==4.66.3',
-        'requests==2.31.0'
+        'requests==2.32.0'
     ],
     setup_requires=['pytest-runner'],
     tests_require=['pytest==6.2.2'],
